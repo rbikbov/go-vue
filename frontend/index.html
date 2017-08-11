@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Kulikova</title>
+  <link rel="shortcut icon" href="/src/assets/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/src/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/src/css/style.css">
+</head>
+
+<body>
+<div id="app">
+  <index-header></index-header>
+
+  <transition name="fade" mode="out-in">
+    <router-view></router-view>
+  </transition>
+
+  <index-footer></index-footer>
+</div>
+<script src="/dist/build.js"></script>
+</body>
+</html>

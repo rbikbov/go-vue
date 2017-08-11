@@ -1,0 +1,7 @@
+.idea
+.vscode
+go
+membase/*.json
+vendor
+run_backend.sh
+frontend/media/*/*.jpg
